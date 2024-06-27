@@ -1,5 +1,5 @@
 function addRecommendation() {
-  // Obtener el mensaje de la nueva recomendación
+  // Obtener el mensaje de la nueva recomendacion
   let recommendation = document.getElementById("new_recommendation");
   // Si el usuario ha dejado una recomendación, mostrar un pop-up
   if (recommendation.value != null && recommendation.value.trim() != "") {
